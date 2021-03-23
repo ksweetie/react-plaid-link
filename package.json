@@ -95,7 +95,7 @@
     "rollup-plugin-terser": "^5.1.2",
     "sinon": "1.17.x",
     "ts-loader": "^6.2.1",
-    "typescript": "3.8",
+    "typescript": "^3.8.3",
     "xyz": "0.5.x"
   },
   "tags": [

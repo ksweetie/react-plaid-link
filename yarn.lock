@@ -9698,10 +9698,10 @@ typedarray@^0.0.6:
   resolved "https://artifact.plaid.io/artifactory/api/npm/npm-all/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@3.8:
-  version "3.8.3"
-  resolved "https://artifact.plaid.io/artifactory/api/npm/npm-all/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
-  integrity sha1-QJ64VE6gM1cRIFhp7EWKsQnuEGE=
+typescript@^3.8.3:
+  version "3.9.9"
+  resolved "https://artifact.plaid.io/artifactory/api/npm/npm-all/typescript/-/typescript-3.9.9.tgz#e69905c54bc0681d0518bd4d587cc6f2d0b1a674"
+  integrity sha1-5pkFxUvAaB0FGL1NWHzG8tCxpnQ=
 
 ua-parser-js@^0.7.24:
   version "0.7.24"
