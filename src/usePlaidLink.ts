@@ -29,6 +29,11 @@ export const usePlaidLink = (options: PlaidLinkOptions) => {
   const products = ((options as PlaidLinkOptionsWithPublicKey).product || []).slice().sort().join(',');
 
   useEffect(() => {
+    // If token is undefined, return prematurely
+    if (!options.token) {
+      return;
+    }
+
     // If the link.js script is still loading, return prematurely
     if (loading) {
       return;
